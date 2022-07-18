@@ -1,0 +1,95 @@
+// colors
+$color-red: #FF030F;
+$color-orange-red: #DE1B0B;
+$color-orange: #F52500;
+$color-light-orange: #FF4B00;
+$color-bg: #fafaff;
+$bg-blue: #9ed9f9;
+$color-primary: #086FA8;
+$color-secondary: #18A6F5;
+$color-dark-blue: #0e0041;
+
+
+// fonts
+$body-font: 'Koulen', cursive;
+
+
+body {
+    background-color: $color-bg;
+    font-family: $body-font;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+.jumbotron {
+    background-image: linear-gradient($color-orange-red, $color-orange, $color-light-orange);
+    margin: 0;
+    padding: 60px;
+}
+
+#logo {
+    height: 50px;
+    object-fit: cover;
+}
+
+#runNavbar {
+    align-items: center;
+}
+
+.bg-login {
+    background-color: $color-primary;
+}
+
+.bg-distance {
+    background-color: $color-primary;
+}
+
+.my-navbar {
+    background-color: $color-red;
+}
+
+.news-card {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.news-img {
+    height: 270px;
+    object-fit: cover;    
+    object-position: 100% 50%;
+}
+
+.site-footer {
+    padding: 20px 0;
+    background-image: linear-gradient( $color-bg, $color-secondary, $color-dark-blue);
+}
+
+.img-option {
+    height: 180px;
+    object-fit: cover;
+    object-position: 100% 100%;
+}
+
+.row-selection {
+    margin: 10px 0;
+}
+
+#selectionContainer {
+    padding: 10px 0;
+
+    #seletcionForm {
+        background-color: $bg-blue;
+        padding: 10px;
+        border-radius: 2px;
+        border-style: solid;
+        border-color: $color-primary;
+    };
+
+    .typeBtn {
+        background-color: $color-dark-blue;
+        color: $color-secondary;
+        margin: 0 5px;
+    };
+}
